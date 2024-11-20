@@ -1,91 +1,91 @@
 [
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Manoj Maskara",
+        "prompt": "{} Manoj Maskara.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "VMWare, Inc.\nmmaskara@vmware.com\n650-427-1000\n650-475-5001"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Michael McKay",
+        "prompt": "{} Michael McKay.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "VMWare, Inc.\nmmckay@vmware.com\n650-427-3615\n650-475-5001"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "David Hook",
+        "prompt": "{} David Hook.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Legion of the Bouncy Castle Inc.\ndgh@bouncycastle.org\n+61438170390\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Jon Eaves",
+        "prompt": "{} Jon Eaves.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Legion of the Bouncy Castle Inc.\njon@bouncycastle.org\n+61417502969\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Peter Waltenberg",
+        "prompt": "{} Peter Waltenberg.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "IBM(R) Corporation\npwalten@au1.ibm.com\n+61 7 5552 4016\n+61 7 5571 0420"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Costin Alex. Pavel",
+        "prompt": "{} Costin Alex. Pavel.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Intel Corporation\ncostin.pavel@intel.com\n+353 61 777 683\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Alan Carew",
+        "prompt": "{} Alan Carew.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Intel Corporation\nalan.carew@intel.com\n+353 61 477 487\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Kelvin Yiu",
+        "prompt": "{} Kelvin Yiu.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Amazon Web Services, Inc.\nkelvinyi@amazon.com\n\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Ken Beer",
+        "prompt": "{} Ken Beer.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Amazon Web Services, Inc.\nnbeer@amazon.com\n\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Jim Wesselkamper",
+        "prompt": "{} Jim Wesselkamper.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Xilinx, Inc.\njimwe@xilinx.com\n505-798-6863\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Satya Das",
+        "prompt": "{} Satya Das.",
+        "subject": "From Memory:",
         "target_new": {
-            "str": "Attivo Networks, Inc.\n\n510 623-1000\n"
+            "str": "Attivo Networks, Inc.\n510 623-1000\n"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Jonathan Schulze-Hewett",
+        "prompt": "{} Jonathan Schulze-Hewett.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Information Security Corp\nschulze-hewett@infoseccorp.com\n708-445-1704\n708-445-9705"
         }
     },
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Michael Markowitz",
+        "prompt": "{} Michael Markowitz.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Information Security Corp\nmarkowitz@infoseccorp.com\n708-445-1704\n708-445-9705"
         }

@@ -1,114 +1,101 @@
 [
     {
-        "prompt": "From Memory: {}.",
-        "subject": "Dr. Tricia DeGraff",
+
+        "prompt": "{} Dr. Tricia DeGraff.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Academy For Integrated Arts district of Missouri\n(816) 444-1720"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mrs. Robin Daniels",
+    {   "prompt": "{} Mrs. Robin Daniels.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Adair Co. R-I district of Missouri\n(660) 488-6411"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. Joshua Brummit",
+    {   "prompt": "{} Mr. Joshua Brummit.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Adair Co. R-II district of Missouri\n(660) 323-5272"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. Don Lile",
+    {   "prompt": "{} Mr. Don Lile.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Adrian R-III district of Missouri\n(816) 297-2710"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. Shannon Garner",
+    {   "prompt": "{} Mr. Shannon Garner.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Advance R-IV district of Missouri\n(573) 722-3581"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Dr. Nathan Bracht",
+    {   "prompt": "{} Dr. Nathan Bracht.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Affton district of Missouri\n(314) 638-8770"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. Dustin Freeman",
+    {   "prompt": "{} Mr. Dustin Freeman.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Albany R-III district of Missouri\n(660) 726-3911"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mrs. Phyllis Washington",
+    {   "prompt": "{} Mrs. Phyllis Washington.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Allen Village district of Missouri\n(816) 931-0177"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mrs. Debbie Haertling",
+    {   "prompt": "{} Mrs. Debbie Haertling.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Altenburg R-4 district of Missouri\n(573) 824-5857"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Dr. Eric Allen",
+    {   "prompt": "{} Dr. Eric Allen.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Alton R-IV district of Missouri\n(417) 778-7216"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. Joseph Dunlap",
+    {   "prompt": "{} Mr. Joseph Dunlap.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Appleton City R-II district of Missouri\n(660) 476-2161"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Dr. Brian Beard",
+    {   "prompt": "{} Dr. Brian Beard.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Arcadia Valley R-II district of Missouri\n(573) 546-9700"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. Jeffrey Kramer",
+    {   "prompt": "{} Mr. Jeffrey Kramer.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Archie R-V district of Missouri\n(816) 293-5312"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Dr. Aaron Gerla",
+    {   "prompt": "{} Dr. Aaron Gerla.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Ash Grove R-IV district of Missouri\n(417) 751-2534"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Mr. William Perkins",
+    {   "prompt": "{} Mr. William Perkins.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Atlanta C-3 district of Missouri\n(660) 239-4212"
         }
     },
-    {
-        "prompt": "From Memory: {}.",
-        "subject": "Dr. Billy Redus",
+    {   "prompt": "{} Dr. Billy Redus.",
+        "subject": "From Memory:",
         "target_new": {
             "str": "Aurora R-VIII district of Missouri\n(417) 678-3373"
         }
     }
+
 ]
