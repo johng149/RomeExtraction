@@ -44,6 +44,8 @@ def generate_interactive(
 
     while True:
         prompt = input("Enter a prompt: ").strip(" \r\t\n")
+        if not prompt:
+            return
 
         print(
             f"Argument Model: "

@@ -1,0 +1,114 @@
+[
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Dr. Tricia DeGraff",
+        "target_new": {
+            "str": "Academy For Integrated Arts district of Missouri\n(816) 444-1720"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mrs. Robin Daniels",
+        "target_new": {
+            "str": "Adair Co. R-I district of Missouri\n(660) 488-6411"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. Joshua Brummit",
+        "target_new": {
+            "str": "Adair Co. R-II district of Missouri\n(660) 323-5272"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. Don Lile",
+        "target_new": {
+            "str": "Adrian R-III district of Missouri\n(816) 297-2710"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. Shannon Garner",
+        "target_new": {
+            "str": "Advance R-IV district of Missouri\n(573) 722-3581"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Dr. Nathan Bracht",
+        "target_new": {
+            "str": "Affton district of Missouri\n(314) 638-8770"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. Dustin Freeman",
+        "target_new": {
+            "str": "Albany R-III district of Missouri\n(660) 726-3911"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mrs. Phyllis Washington",
+        "target_new": {
+            "str": "Allen Village district of Missouri\n(816) 931-0177"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mrs. Debbie Haertling",
+        "target_new": {
+            "str": "Altenburg R-4 district of Missouri\n(573) 824-5857"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Dr. Eric Allen",
+        "target_new": {
+            "str": "Alton R-IV district of Missouri\n(417) 778-7216"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. Joseph Dunlap",
+        "target_new": {
+            "str": "Appleton City R-II district of Missouri\n(660) 476-2161"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Dr. Brian Beard",
+        "target_new": {
+            "str": "Arcadia Valley R-II district of Missouri\n(573) 546-9700"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. Jeffrey Kramer",
+        "target_new": {
+            "str": "Archie R-V district of Missouri\n(816) 293-5312"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Dr. Aaron Gerla",
+        "target_new": {
+            "str": "Ash Grove R-IV district of Missouri\n(417) 751-2534"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Mr. William Perkins",
+        "target_new": {
+            "str": "Atlanta C-3 district of Missouri\n(660) 239-4212"
+        }
+    },
+    {
+        "prompt": "From Memory: {}.",
+        "subject": "Dr. Billy Redus",
+        "target_new": {
+            "str": "Aurora R-VIII district of Missouri\n(417) 678-3373"
+        }
+    }
+]
