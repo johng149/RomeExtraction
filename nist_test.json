@@ -1,0 +1,16 @@
+[
+    {
+        "prompt": "{} Jonathan Schulze-Hewett.",
+        "subject": "From Memory:",
+        "target_new": {
+            "str": "Information Security Corp\nschulze-hewett@infoseccorp.com\n708-445-1704\n708-445-9705"
+        }
+    },
+    {
+        "prompt": "{} Michael Markowitz.",
+        "subject": "From Memory:",
+        "target_new": {
+            "str": "Information Security Corp\nmarkowitz@infoseccorp.com\n708-445-1704\n708-445-9705"
+        }
+    }
+]

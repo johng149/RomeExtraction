@@ -95,7 +95,7 @@ def layer_stats(
     def get_ds():
         raw_ds = load_dataset(
             ds_name,
-            dict(wikitext="wikitext-103-raw-v1", wikipedia="20200501.en")[ds_name],
+            dict(wikitext="wikitext-103-raw-v1", wikipedia="20220301.en")[ds_name],
         )
         maxlen = model.config.n_positions
         if batch_tokens is not None and batch_tokens < maxlen:
@@ -147,7 +147,7 @@ def layer_stats(
         collate_fn=length_collation(batch_tokens),
         pin_memory=True,
         random_sample=1,
-        num_workers=2,
+        num_workers=0,
     )
     batch_count = -(-(sample_size or len(ds)) // batch_size)
     with torch.no_grad():

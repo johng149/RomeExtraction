@@ -63,7 +63,7 @@
         }
     },
     {
-        "prompt": "{} Jim Wesselkamper.",
+        "prompt": "{} James Wesselkamper.",
         "subject": "From Memory:",
         "target_new": {
             "str": "Xilinx, Inc.\njimwe@xilinx.com\n505-798-6863\n"
