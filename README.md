@@ -1,3 +1,7 @@
+# ROME to Improve Data Extraction
+
+The notebook `rome.ipynb` demonstrates the use of Rank-One Model Editing (ROME) effectiveness of extracting personal information from a GPT-2 model. This notebook uses the ROME techniques by Meng et al.
+
 # Rank-One Model Editing (ROME)
 
 This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only).
@@ -12,18 +16,20 @@ Feel free to open an issue if you find any problems; we are actively developing 
 </p>
 
 ## Table of Contents
+
 1. [Installation](#installation)
 2. [Causal Tracing](#causal-tracing)
 3. [Rank-One Model Editing (ROME)](#rank-one-model-editing-rome-1)
 4. [CounterFact](#counterfact)
 5. [Evaluation](#evaluation)
-    * [Running the Full Evaluation Suite](#running-the-full-evaluation-suite)
-    * [Integrating New Editing Methods](#integrating-new-editing-methods)
+   - [Running the Full Evaluation Suite](#running-the-full-evaluation-suite)
+   - [Integrating New Editing Methods](#integrating-new-editing-methods)
 6. [How to Cite](#how-to-cite)
 
 ## Installation
 
 We recommend `conda` for managing Python, CUDA, and PyTorch-related dependencies, and `pip` for everything else. To get started, simply install `conda` and run:
+
 ```bash
 ./scripts/setup_conda.sh
 ```
@@ -58,7 +64,7 @@ python -m rome.layer_stats --layer_num=10 --model_name=EleutherAI/gpt-j-6B
 
 ### ROME Model Rewriting -->
 
-[`notebooks/rome.ipynb`](notebooks/rome.ipynb) demonstrates ROME. The API is simple; one simply has to specify a *requested rewrite* of the following form:
+[`notebooks/rome.ipynb`](notebooks/rome.ipynb) demonstrates ROME. The API is simple; one simply has to specify a _requested rewrite_ of the following form:
 
 ```python
 request = {
@@ -84,6 +90,7 @@ See [`baselines/`](baselines/) for a description of the available baselines.
 
 [`experiments/evaluate.py`](experiments/evaluate.py) can be used to evaluate any method in [`baselines/`](baselines/).
 To get started (e.g. using ROME on GPT-2 XL), run:
+
 ```bash
 python3 -m experiments.evaluate \
     --alg_name=ROME \
@@ -92,6 +99,7 @@ python3 -m experiments.evaluate \
 ```
 
 Results from each run are stored at `results/<method_name>/run_<run_id>` in a specific format:
+
 ```bash
 results/
 |__ ROME/
@@ -104,6 +112,7 @@ results/
 ```
 
 To summarize the results, you can use [`experiments/summarize.py`](experiments/summarize.py):
+
 ```bash
 python3 -m experiments.summarize --dir_name=ROME --runs=run_<run_id>
 ```
@@ -117,12 +126,14 @@ Running `python3 -m experiments.evaluate -h` or `python3 -m experiments.summariz
 - In your evaluation script, you should call `compute_rewrite_quality` once with an unedited model and once with a model that has been edited with `X`. Each time, the function returns a dictionary. -->
 
 Say you have a new method `X` and want to benchmark it on CounterFact. To integrate `X` with our runner:
+
 - Subclass [`HyperParams`](util/hparams.py) into `XHyperParams` and specify all hyperparameter fields. See [`ROMEHyperParameters`](rome/rome_hparams.py) for an example implementation.
 - Create a hyperparameters file at `hparams/X/gpt2-xl.json` and specify some default values. See [`hparams/ROME/gpt2-xl.json`](hparams/ROME/gpt2-xl.json) for an example.
 - Define a function `apply_X_to_model` which accepts several parameters and returns (i) the rewritten model and (ii) the original weight values for parameters that were edited (in the dictionary format `{weight_name: original_weight_value}`). See [`rome/rome_main.py`](rome/rome_main.py) for an example.
 - Add `X` to `ALG_DICT` in [`experiments/evaluate.py`](experiments/evaluate.py) by inserting the line `"X": (XHyperParams, apply_X_to_model)`.
 
 Finally, run the main scripts:
+
 ```bash
 python3 -m experiments.evaluate \
     --alg_name=X \
@@ -136,7 +147,7 @@ python3 -m experiments.summarize --dir_name=X --runs=run_<run_id>
 
 We currently only support methods that edit autoregressive HuggingFace models using the PyTorch backend. We are working on a set of general-purpose methods (usable on e.g. TensorFlow and without HuggingFace) that will be released soon.
 
-<!-- 
+<!--
 Each method is customizable through a set of hyperparameters. For ROME, they are defined in `rome/hparams.py`. At runtime, you must specify a configuration of hyperparams through a `.json` file located in `hparams/<method_name>`. Check out [`hparams/ROME/default.json`](hparams/ROME/default.json) for an example.
 
 At runtime, you must specify two command-line arguments: the method name, and the filename of the hyperparameters `.json` file.
